@@ -69,8 +69,6 @@ Once those libs are installed, it is possible to run the **BolsaApi.ipynb**. It 
     ```
 </details>
 
-pip install flask flask-jsonpify flask-sqlalchemy flask-restful
-
 [Jupyter Notebook]: https://jupyter.org/
 
 ### Postman/Browser
