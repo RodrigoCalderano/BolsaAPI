@@ -54,7 +54,7 @@ After MetaTrader is installed, it is necessay to:
 
 ### [Jupyter Notebook]
 
-For this demo project I have used [Jupyter Notebook], but this is up to.
+For this demo project I have used [Jupyter Notebook], but this is up to you.
 The necessaries libs are: 
 1. `zmq`
 2. `flask_restful`
