@@ -1,0 +1,21 @@
+{
+	"info": {
+		"_postman_id": "7348f308-02be-46e2-88c5-832be5fddf57",
+		"name": "BolsaAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetLastBid",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
