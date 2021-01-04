@@ -59,7 +59,7 @@ For this demo project I have used jupyter notebook, but can use any IDE. The nec
 2. flask_restful
 3. flask_jsonpify
 
-Once those libs are installed, it is possible to run the BolsaApi.ipynb. It expose the endpoint: @Get 127.0.0.1:5002/stock/<stock_id> that returns the current price of the stock_id
+Once those libs are installed, it is possible to run the BolsaApi.ipynb. It expose the endpoint: '@Get 127.0.0.1:5002/stock/<stock_id>' that returns the current price of the stock_id
 
 <details><summary><b>Show instructions</b></summary>
 
@@ -74,4 +74,4 @@ pip install flask flask-jsonpify flask-sqlalchemy flask-restful
 
 ### Postman/Browser
 
-Now it possible to use the  @Get 127.0.0.1:5002/stock/<stock_id> to retrieve the current price of any brazilian stock
+Now it possible to use the  '@Get 127.0.0.1:5002/stock/<stock_id>' to retrieve the current price of any brazilian stock
