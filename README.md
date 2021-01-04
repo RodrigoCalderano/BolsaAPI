@@ -1,6 +1,6 @@
 # BolsaAPI
 
-BolsaAPI is a workarround for the lack of reliable brazil stock market API. It create endpoint to check any brazilian stock price by consulting a MetaTrader bot(Expert Advisor) under the hood. Currently this is a demo project with only last price info, but can be easily improved to cover other stock data by just plugging new functions.
+BolsaAPI is a workarround for the lack of reliable brazil stock market API. It create an endpoint to check any brazilian stock price by consulting a MetaTrader bot(Expert Advisor) under the hood. Currently this is a demo project with only last price info, but can be easily improved to cover other stock data by just plugging new functions.
 
 ## How It Works
 
@@ -24,13 +24,33 @@ BolsaAPI is a workarround for the lack of reliable brazil stock market API. It c
 
 ### [MetaTrader 5]
 
-Unfortunatly it isn't very easy to get a free account. It is necessary to get a broker account to later retrieve a MetaTrader account realted to that broker. I got my account from [Rico broker] which was totally free (the broker account and also the MetaTrader Account). But this is the most boring part.
+Unfortunatly it isn't very easy to get a free account. It is necessary to get a broker account to later retrieve a MetaTrader account related to that broker. I got my account from [Rico broker] which was totally free (the broker account and also the MetaTrader Account). But this is the most boring part.
 
 [MetaTrader 5]: https://www.metatrader5.com/
 [Rico broker]: https://www.rico.com.vc/metatrader/
 
 
-### [Expoert Advisor]
+### [Expert Advisor]
+
+After installed MetaTrader it is necessay to:
+1. Create the the expert advisor from within the MetaTrader interface and copying the code from **BolsaExpAdvisor.mq5**
+2. Import the files located in **/depedencies** into the MetaTrader MQL5 folder
+
+<details><summary><b>Show instructions</b></summary>
+  
+  1. The expert advisor can be created here:
+  <p align="center">
+  <img src="./img/CreateExpertAdvisor.png" alt="CreateExpertAdvisor" width="325">
+  </p>
+  Paste the code from **BolsaExpAdvisor.mq5** into the created expert advisor
+  
+  2. The MQL5 folder can be located here:
+  <p align="center">
+  <img src="./img/Dependencies.png" alt="Dependencies" width="325">
+  </p>
+  Rembember to replace the each file into the correct location. You are not supposed to replace anything.
+  
+</details>
 
 
-[Expoert Advisor]: https://www.metatrader5.com/en/terminal/help/algotrading/trade_robots_indicators
+[Expert Advisor]: https://www.metatrader5.com/en/terminal/help/algotrading/trade_robots_indicators
