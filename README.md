@@ -38,19 +38,40 @@ After installed MetaTrader it is necessay to:
 
 <details><summary><b>Show instructions</b></summary>
   
-  1. The expert advisor can be created here:
+  1. Paste the code from **BolsaExpAdvisor.mq5** into the created expert advisor. The expert advisor can be created here:
   <p align="center">
   <img src="./img/CreateExpertAdvisor.png" alt="CreateExpertAdvisor" width="325">
   </p>
-  Paste the code from **BolsaExpAdvisor.mq5** into the created expert advisor
   
-  2. The MQL5 folder can be located here:
+  2. Rembember to replace the each file into the correct location. You are not supposed to replace anything. The MQL5 folder can  be located here (MetaEditor 5):
   <p align="center">
   <img src="./img/Dependencies.png" alt="Dependencies" width="325">
   </p>
-  Rembember to replace the each file into the correct location. You are not supposed to replace anything.
   
 </details>
 
-
 [Expert Advisor]: https://www.metatrader5.com/en/terminal/help/algotrading/trade_robots_indicators
+
+### [Jupyter Notebook]
+
+For this demo project I have used jupyter notebook, but can use any IDE. The necessaries libs are: 
+1. zmq
+2. flask_restful
+3. flask_jsonpify
+
+Once those libs are installed, it is possible to run the BolsaApi.ipynb. It expose the endpoint: @Get 127.0.0.1:5002/stock/<stock_id> that returns the current price of the stock_id
+
+<details><summary><b>Show instructions</b></summary>
+
+     ```sh
+    $ pip install zmq flask flask-restful flask-jsonpify
+    ```
+</details>
+
+pip install flask flask-jsonpify flask-sqlalchemy flask-restful
+
+[Jupyter Notebook]: https://jupyter.org/
+
+### Postman/Browser
+
+Now it possible to use the  @Get 127.0.0.1:5002/stock/<stock_id> to retrieve the current price of any brazilian stock
