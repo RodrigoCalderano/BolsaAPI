@@ -63,10 +63,9 @@ The necessaries libs are:
 Once those libs are installed, it is possible to run the **BolsaApi.ipynb**. It expose the endpoint: `@Get 127.0.0.1:5002/stock/<stock_id>` that returns the current price of the stock_id
 
 <details><summary><b>Show instructions</b></summary>
-
-     ```sh
+     
     $ pip install zmq flask flask-restful flask-jsonpify
-    ```
+   
 </details>
 
 [Jupyter Notebook]: https://jupyter.org/
