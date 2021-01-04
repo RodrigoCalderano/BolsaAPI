@@ -24,7 +24,7 @@ BolsaAPI is a workarround for the lack of reliable brazil stock market API. It c
 
 ### [MetaTrader 5]
 
-Unfortunatly it isn't very easy to get a free account. It is necessary to get a broker account to later retrieve a MetaTrader account related to that broker. I got my account from [Rico broker] which was totally free (the broker account and also the MetaTrader Account). But this is the most boring part.
+Unfortunatly it isn't very easy to get a MetaTrader account. It is necessary to get a broker account to later retrieve a MetaTrader account related to that broker. I got my account from [Rico broker] which was totally free (the broker account and also the MetaTrader Account). But this is the most boring part.
 
 [MetaTrader 5]: https://www.metatrader5.com/
 [Rico broker]: https://www.rico.com.vc/metatrader/
