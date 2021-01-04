@@ -32,13 +32,13 @@ Unfortunatly it isn't very easy to get a MetaTrader account. It is necessary to 
 
 ### [Expert Advisor]
 
-After installed MetaTrader it is necessay to:
-1. Create the the expert advisor from within the MetaTrader interface and copying the code from **BolsaExpAdvisor.mq5**
+After MetaTrader is installed, it is necessay to:
+1. Create the the expert advisor and copy the code from **BolsaExpAdvisor.mq5**
 2. Import the files located in **/depedencies** into the MetaTrader MQL5 folder
 
 <details><summary><b>Show instructions</b></summary>
   
-  1. Paste the code from **BolsaExpAdvisor.mq5** into the created expert advisor. The expert advisor can be created here:
+  1. Paste the code from **BolsaExpAdvisor.mq5** into the created expert advisor. The expert advisor can be created from within the MetaTrader interface:
   <p align="center">
   <img src="./img/CreateExpertAdvisor.png" alt="CreateExpertAdvisor" width="325">
   </p>
